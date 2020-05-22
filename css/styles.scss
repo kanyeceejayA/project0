@@ -1,9 +1,11 @@
 $headerColor:white;
 $offwhite: rgba(255,255,255,.5)!important;
+$dark: #e9ecef;
 
 img.logo{
   height: 50px;
   width: auto;
+  margin-right:1em;
 }
 .masthead{
     height: 100vh;
@@ -17,11 +19,14 @@ img.logo{
 .transparent{
   background-color: rgba(0, 0, 0, 0.5);
 }
-footer{
+#sticky-footer{
   height: 50px;
   color:$offwhite;
 }
 
+tr:nth-child(even){
+  background-color:$dark;
+}
 %generic{
   padding: 2rem 1rem;
   // margin-bottom: 2rem;
@@ -35,5 +40,5 @@ section{
 
 section.dark{
   @extend %generic;
-  background-color: #e9ecef;
+  background-color:$dark;
 }

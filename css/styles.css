@@ -1,6 +1,7 @@
 img.logo {
   height: 50px;
   width: auto;
+  margin-right: 1em;
 }
 
 .masthead {
@@ -17,9 +18,13 @@ img.logo {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-footer {
+#sticky-footer {
   height: 50px;
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+tr:nth-child(even) {
+  background-color: #e9ecef;
 }
 
 section.dark, section {
