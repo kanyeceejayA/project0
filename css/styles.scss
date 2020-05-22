@@ -27,6 +27,8 @@ img.logo{
 tr:nth-child(even){
   background-color:$dark;
 }
+
+/* -----SECTIONS----*/
 %generic{
   padding: 2rem 1rem;
   // margin-bottom: 2rem;
@@ -41,4 +43,24 @@ section{
 section.dark{
   @extend %generic;
   background-color:$dark;
+}
+
+#video{
+  // width:80%;
+  padding-bottom: 56.25%;
+  // margin:10%;
+}
+iframe{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+
+}
+li a[target=_blank]::after{
+  content:' -\203A';
+}
+@media (max-width:600px){
+  td:nth-child(3),th:nth-child(3){
+    display:none;
+  }
 }
