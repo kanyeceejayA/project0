@@ -1,5 +1,10 @@
 $headerColor:white;
+$offwhite: rgba(255,255,255,.5)!important;
 
+img.logo{
+  height: 50px;
+  width: auto;
+}
 .masthead{
     height: 100vh;
     min-height: 500px;
@@ -14,4 +19,21 @@ $headerColor:white;
 }
 footer{
   height: 50px;
+  color:$offwhite;
+}
+
+%generic{
+  padding: 2rem 1rem;
+  // margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+
+section{
+  @extend %generic;
+  background-color: white;
+}
+
+section.dark{
+  @extend %generic;
+  background-color: #e9ecef;
 }

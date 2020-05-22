@@ -1,3 +1,8 @@
+img.logo {
+  height: 50px;
+  width: auto;
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -14,6 +19,20 @@
 
 footer {
   height: 50px;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+section.dark, section {
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+}
+
+section {
+  background-color: white;
+}
+
+section.dark {
+  background-color: #e9ecef;
 }
 
 /*# sourceMappingURL=styles.css.map */
