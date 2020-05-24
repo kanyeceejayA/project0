@@ -44,17 +44,18 @@ section.dark{
   @extend %generic;
   background-color:$dark;
 }
-
 #video{
-  // width:80%;
-  padding-bottom: 56.25%;
-  // margin:10%;
-}
-iframe{
-  width: 80%;
-  height: 80%;
-  position: absolute;
+  div{
+    // width:80%;
+    padding-bottom: 56.25%;
+    // margin:10%;
+  }
+  iframe{
+    width: 80%;
+    height: 80%;
+    position: absolute;
 
+  }
 }
 li a[target=_blank]::after{
   content:' -\203A';
