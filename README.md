@@ -22,4 +22,4 @@ I noticed that the video link I submitted in the google sheet might not be publi
 Here is the proper link to the video: [https://vimeo.com/421718336P](https://vimeo.com/421718336)
 
 ## Viewing the site online
-I published the website at [kanyeceejayA.github.com/project-0](kanyeceejayA.github.com/project-0), where it can be viewed publicly
+I published the website at [kanyeceejayA.github.com/project-0](https://kanyeceejayA.github.com/project-0), where it can be viewed publicly
